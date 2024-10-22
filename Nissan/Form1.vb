@@ -52,6 +52,8 @@ End sub
 		Dim cantidad As Integer = TextBox2.Text
 		Dim array() As String = {"Su cantidad es"}
 		    MsgBox(array(0) &cantidad)
+
+'se escoge el producto
 If ComboBox1.SelectedItem = "nissan Shyline GTR5 $5000" then
 			Dim operacion As Integer = cantidad * 2321 
 			Dim Arrays() As String = {"su total es de"}
