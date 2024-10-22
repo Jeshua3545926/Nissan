@@ -34,12 +34,6 @@ Partial Class Form1
 		Me.TextBox2 = New System.Windows.Forms.TextBox()
 		Me.Label5 = New System.Windows.Forms.Label()
 		Me.TextBox3 = New System.Windows.Forms.TextBox()
-		Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-		Me.JeshuaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-		Me.ProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-		Me.InicioDeSesionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-		Me.RegistrarseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-		Me.MenuStrip1.SuspendLayout
 		Me.SuspendLayout
 		'
 		'Button1
@@ -49,7 +43,7 @@ Partial Class Form1
 		Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red
 		Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
 		Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-		Me.Button1.Location = New System.Drawing.Point(1827, -3)
+		Me.Button1.Location = New System.Drawing.Point(1146, 0)
 		Me.Button1.Name = "Button1"
 		Me.Button1.Size = New System.Drawing.Size(57, 50)
 		Me.Button1.TabIndex = 0
@@ -78,7 +72,7 @@ Partial Class Form1
 		'
 		Me.Label1.AutoSize = true
 		Me.Label1.Font = New System.Drawing.Font("MingLiU_HKSCS-ExtB", 24!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-		Me.Label1.Location = New System.Drawing.Point(956, 9)
+		Me.Label1.Location = New System.Drawing.Point(608, 9)
 		Me.Label1.Name = "Label1"
 		Me.Label1.Size = New System.Drawing.Size(164, 48)
 		Me.Label1.TabIndex = 3
@@ -120,7 +114,7 @@ Partial Class Form1
 		Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gold
 		Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
 		Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-		Me.Button2.Location = New System.Drawing.Point(309, 667)
+		Me.Button2.Location = New System.Drawing.Point(-364, 667)
 		Me.Button2.Name = "Button2"
 		Me.Button2.Size = New System.Drawing.Size(156, 54)
 		Me.Button2.TabIndex = 7
@@ -165,53 +159,14 @@ Partial Class Form1
 		Me.TextBox3.Size = New System.Drawing.Size(596, 19)
 		Me.TextBox3.TabIndex = 10
 		'
-		'MenuStrip1
-		'
-		Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
-		Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
-		Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.JeshuaToolStripMenuItem, Me.ProductosToolStripMenuItem, Me.InicioDeSesionToolStripMenuItem})
-		Me.MenuStrip1.Location = New System.Drawing.Point(239, 0)
-		Me.MenuStrip1.Name = "MenuStrip1"
-		Me.MenuStrip1.Size = New System.Drawing.Size(1636, 33)
-		Me.MenuStrip1.TabIndex = 22
-		Me.MenuStrip1.Text = "MenuStrip1"
-		'
-		'JeshuaToolStripMenuItem
-		'
-		Me.JeshuaToolStripMenuItem.Name = "JeshuaToolStripMenuItem"
-		Me.JeshuaToolStripMenuItem.Size = New System.Drawing.Size(78, 29)
-		Me.JeshuaToolStripMenuItem.Text = "jeshua"
-		'
-		'ProductosToolStripMenuItem
-		'
-		Me.ProductosToolStripMenuItem.Name = "ProductosToolStripMenuItem"
-		Me.ProductosToolStripMenuItem.Size = New System.Drawing.Size(110, 29)
-		Me.ProductosToolStripMenuItem.Text = "productos"
-		'
-		'InicioDeSesionToolStripMenuItem
-		'
-		Me.InicioDeSesionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RegistrarseToolStripMenuItem})
-		Me.InicioDeSesionToolStripMenuItem.Name = "InicioDeSesionToolStripMenuItem"
-		Me.InicioDeSesionToolStripMenuItem.Size = New System.Drawing.Size(149, 29)
-		Me.InicioDeSesionToolStripMenuItem.Text = "inicio de sesion"
-		'
-		'RegistrarseToolStripMenuItem
-		'
-		Me.RegistrarseToolStripMenuItem.BackColor = System.Drawing.SystemColors.Highlight
-		Me.RegistrarseToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-		Me.RegistrarseToolStripMenuItem.Name = "RegistrarseToolStripMenuItem"
-		Me.RegistrarseToolStripMenuItem.Size = New System.Drawing.Size(196, 34)
-		Me.RegistrarseToolStripMenuItem.Text = "registrarse"
-		'
 		'Form1
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(9!, 20!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-		Me.ClientSize = New System.Drawing.Size(1875, 924)
+		Me.ClientSize = New System.Drawing.Size(1202, 924)
 		Me.Controls.Add(Me.Button1)
 		Me.Controls.Add(Me.Label1)
-		Me.Controls.Add(Me.MenuStrip1)
 		Me.Controls.Add(Me.Label5)
 		Me.Controls.Add(Me.TextBox3)
 		Me.Controls.Add(Me.Label4)
@@ -223,11 +178,8 @@ Partial Class Form1
 		Me.Controls.Add(Me.TextBox1)
 		Me.Controls.Add(Me.ComboBox1)
 		Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-		Me.MainMenuStrip = Me.MenuStrip1
 		Me.Name = "Form1"
 		Me.Text = "Form1"
-		Me.MenuStrip1.ResumeLayout(false)
-		Me.MenuStrip1.PerformLayout
 		Me.ResumeLayout(false)
 		Me.PerformLayout
 
@@ -244,9 +196,4 @@ End Sub
  Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
 	Friend WithEvents Label5 As Label
 	Friend WithEvents TextBox3 As TextBox
-	Friend WithEvents MenuStrip1 As MenuStrip
-	Friend WithEvents JeshuaToolStripMenuItem As ToolStripMenuItem
-	Friend WithEvents ProductosToolStripMenuItem As ToolStripMenuItem
-	Friend WithEvents InicioDeSesionToolStripMenuItem As ToolStripMenuItem
-	Friend WithEvents RegistrarseToolStripMenuItem As ToolStripMenuItem
 End Class

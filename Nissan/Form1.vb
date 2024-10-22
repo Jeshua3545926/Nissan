@@ -112,7 +112,5 @@ Function F() As String
 		Return "Pago existoso"
 End Function
 
-	Private Sub ContextMenuStrip1_Opening(sender As Object, e As System.ComponentModel.CancelEventArgs) 
- MessageBox.Show("El menú contextual está por abrirse.")
-	End Sub
+
 End Class
