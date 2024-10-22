@@ -110,7 +110,5 @@ End Function
 		End Sub
 Function F() As String
 		Return "Pago existoso"
-End Function
-
-
+	End Function
 End Class
